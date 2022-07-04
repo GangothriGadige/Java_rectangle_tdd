@@ -9,6 +9,10 @@ public class Rectangle {
         this.breadth = breadth;
     }
 
+    public static Rectangle createSquare(int side){
+        return new Rectangle(side,side);
+    }
+
     public int area() {
         return length * breadth;
     }
